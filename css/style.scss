@@ -650,37 +650,3 @@ input::-webkit-inner-spin-button {
 		}
 	}
 }
-
-@media all and (max-width: 1000px) {
-	#top_header {
-		#main_nav {
-			float: none;
-			.main_nav-list {
-				display: block;
-			}
-			.main_nav-list {
-				display: none;
-				margin-top: 10.5rem;
-				.main_nav_list-item {
-					margin: 0;
-					padding: 0;
-					text-align: center;
-					&:last-child {
-						margin: 0;
-					}
-					a {
-						&.active:after {
-							display: none;
-						}
-					}
-				}
-			}
-			.mobile-menu {
-				display: block;
-
-			}
-		}
-	}
-}
-
-
